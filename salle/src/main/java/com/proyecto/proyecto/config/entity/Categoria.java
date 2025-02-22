@@ -16,5 +16,25 @@ public class Categoria {
     @Column(name = "descripcion")
     private String descripcion;
 
-    // Getters and Setters
+    public int getIdCategoria() {
+        return idCategoria;
+    }
+
+    public void setIdCategoria(int idCategoria) {
+        this.idCategoria = idCategoria;
+    }
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String descripcion) {
+        this.descripcion = descripcion;
+    }
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
 }

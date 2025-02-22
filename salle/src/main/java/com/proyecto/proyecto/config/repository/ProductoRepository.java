@@ -1,4 +1,4 @@
-package com.proyecto.proyecto.repository;
+package com.proyecto.proyecto.ProductoRepository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
