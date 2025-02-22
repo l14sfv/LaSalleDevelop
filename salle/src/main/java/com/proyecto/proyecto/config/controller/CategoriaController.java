@@ -1,4 +1,4 @@
-package com.proyecto.proyecto.CategoriaController;
+package com.proyecto.proyecto.Controller;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,7 @@ import com.proyecto.proyecto.repository.CategoriaRepository;
 @RequestMapping("/categorias")
 public class CategoriaController {
     @Autowired
-    private CategoriaRepository categoriaRepository;
+    private categoriaRepository categoriaRepository;
 
     @GetMapping
     public List<Categoria> obtenerCategorias() {

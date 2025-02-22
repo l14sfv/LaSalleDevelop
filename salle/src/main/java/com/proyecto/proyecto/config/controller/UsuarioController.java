@@ -1,4 +1,4 @@
-package com.proyecto.proyecto.UsuarioController;
+package com.proyecto.proyecto.controller;
 
 import java.security.SecureRandom;
 import java.util.List;
